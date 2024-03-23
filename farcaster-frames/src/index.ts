@@ -37,8 +37,11 @@ app.post('/', async (c) => {
       whitelist
     */
     const PrivateKey :any = process.env.PRIVATEKEY;
-    const provider: any = new ethers.providers.JsonRpcProvider("https://sepolia.infura.io/v3/e96abcff2f494bcd81fadc53c8fd6ac9");
-    const signer = new ethers.Wallet(PrivateKey, provider);
+    const provider_sepolia: any = new ethers.providers.JsonRpcProvider("https://sepolia.infura.io/v3/e96abcff2f494bcd81fadc53c8fd6ac9");
+    const provider_zircuit: any = new ethers.providers.JsonRpcProvider("https://zircuit1.p2pify.com/");
+    const provider_linea: any = new ethers.providers.JsonRpcProvider("https://rpc.goerli.linea.build");
+
+    const signer = new ethers.Wallet(PrivateKey, provider_sepolia);
     console.log("signer: ", signer);
     const contract = new ethers.Contract("0x9d3F37D1F55Fe00D860C81abb1542FA68e613770", abi, signer);
     let tx = await contract.whitelistAddress("0x7199D548f1B30EA083Fe668202fd5E621241CC89");

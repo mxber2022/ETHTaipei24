@@ -1,6 +1,18 @@
 # ETHTaipei24
  
-ContractAddress: 0x9d3F37D1F55Fe00D860C81abb1542FA68e613770
+# Smart Contracts
+
+## ETH Sepolia
+- **Contract Address:** [0x9d3F37D1F55Fe00D860C81abb1542FA68e613770]
+
+## Zircuit
+- **Contract Address (ERC20 musdc):** [0xAaa906c8C2720c50B69a5Ba54B44253Ea1001C98]
+- **Contract Address (GiveAway):** [0xb5dD8f6770593bC05Dc5B336F809695Ee481c991]
+
+## Linea
+- **Contract Address (ERC20 musdc):** [0xAaa906c8C2720c50B69a5Ba54B44253Ea1001C98]
+- **Contract Address (GiveAway):** [0xb5dD8f6770593bC05Dc5B336F809695Ee481c991]
+
 
 **Giveaway Smart Contract**
 
