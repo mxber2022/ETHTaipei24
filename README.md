@@ -4,7 +4,7 @@ ContractAddress: 0x9d3F37D1F55Fe00D860C81abb1542FA68e613770
 
 **Giveaway Smart Contract**
 
-The farcaster giveaway systemt is a decentralized application (DApp) built on the Ethereum blockchain that allows users to participate in and host giveaways using USDC (a stablecoin). This contract provides a transparent and secure way to conduct giveaways, ensuring fairness for all participants.
+The farcaster frame giveaway system is a decentralized application (DApp) built on the Ethereum blockchain that allows users to participate in and host giveaways using circle USDC (a stablecoin). This contract provides a transparent and secure way to conduct giveaways, ensuring fairness for all participants.
 
 ### Key Features
 
