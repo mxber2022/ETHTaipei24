@@ -20,7 +20,7 @@
 
 **Introduction**
 
-The farcaster frame giveaway system is a decentralized application (DApp) built on the Ethereum blockchain that allows users to participate in and host giveaways using circle USDC (a stablecoin). This contract provides a transparent and secure way to conduct giveaways, ensuring fairness for all participants.
+The farcaster frame giveaway system is a decentralized application (DApp) built on the EVM blockchain that allows users to participate in and host giveaways using circle USDC (a stablecoin). This contract provides a transparent and secure way to conduct giveaways, ensuring fairness for all participants.
 
 ### Key Features
 
