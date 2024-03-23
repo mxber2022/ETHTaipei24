@@ -26,7 +26,7 @@ contract Bet {
     }
 
     function enter(uint256 amount) public {
-        require(amount > 5, "Amount must be greater than 0");
+        require(amount > 5000000000000000000, "Amount must be greater than 0");
         require(usdc.allowance(msg.sender, address(this)) >= amount, "You must approve the transfer first");
 
         players.push(msg.sender);
