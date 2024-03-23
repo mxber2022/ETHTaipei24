@@ -13,6 +13,10 @@
 - **Contract Address (ERC20 musdc):** [0xAaa906c8C2720c50B69a5Ba54B44253Ea1001C98]
 - **Contract Address (GiveAway):** [0xb5dD8f6770593bC05Dc5B336F809695Ee481c991]
 
+## ThunderCore
+- **Contract Address (ERC20 musdc):** [0xb5dD8f6770593bC05Dc5B336F809695Ee481c991]
+- **Contract Address (GiveAway):** [0x2E61762970Ed685ae91c8aCa27D7E926C67f1662]
+
 
 **Introduction**
 

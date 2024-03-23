@@ -40,6 +40,7 @@ app.post('/', async (c) => {
     const provider_sepolia: any = new ethers.providers.JsonRpcProvider("https://sepolia.infura.io/v3/e96abcff2f494bcd81fadc53c8fd6ac9");
     const provider_zircuit: any = new ethers.providers.JsonRpcProvider("https://zircuit1.p2pify.com/");
     const provider_linea: any = new ethers.providers.JsonRpcProvider("https://rpc.goerli.linea.build");
+    const provider_ThunderCore: any = new ethers.providers.JsonRpcProvider("https://testnet-rpc.thundercore.com");
 
     const signer = new ethers.Wallet(PrivateKey, provider_sepolia);
     console.log("signer: ", signer);
